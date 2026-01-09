@@ -150,35 +150,33 @@ nav button:hover,
   gap: 10px;
 }
 
-
-.second-sec{
+.second-sec {
   padding: 120px 120px 0px 120px;
   max-width: 1600px;
   height: 448px;
-
 }
 
-.second-sec .sec-title{
+.second-sec .sec-title {
   max-width: 1360px;
   height: 153px;
   margin-bottom: 44px;
   text-align: center;
 }
 
-.second-sec .sec-title h1{
+.second-sec .sec-title h1 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 16px;
   color: #001931;
 }
 
-.second-sec .sec-title p{
+.second-sec .sec-title p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   color: #627382;
 }
-.box{
+.box {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -186,7 +184,7 @@ nav button:hover,
   gap: 24px;
 }
 
-.card{
+.card {
   width: 322px;
   height: 300px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
@@ -194,36 +192,92 @@ nav button:hover,
   padding-top: 69.5px;
 }
 
-.box .card img{
-  background-color:#F95555;
+.box .card img {
+  background-color: #f95555;
   border-radius: 50%;
   width: 60px;
   height: 60px;
   padding: 10px;
   margin-bottom: 16px;
- 
+
   top: 69.5px;
   left: 131px;
 }
 
-.box .card h3{
+.box .card h3 {
   color: #001931;
   font-size: 24;
   font-weight: 600;
   margin-bottom: 16px;
 }
-.box .card p{
+.box .card p {
   color: #627382;
   font-weight: 400;
-  font-size:16px;
+  font-size: 16px;
   line-height: 20px;
   margin-bottom: 20.5px;
 }
 
-.card:hover{
-  transition: 0.5s ease, box-shadow 0.3s ease;  
+.card:hover {
+  transition: 0.5s ease, box-shadow 0.3s ease;
 }
-.card:hover{
+.card:hover {
   transform: translateY(-10px);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.third-sec {
+  margin-top: 150px;
+  max-width: 1600px;
+  height: 840px;
+}
+
+.third-sec .dual {
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  /* background-color: #30b868; */
+}
+
+.dual img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.dual .third-sec-content {
+  padding: 102px 0px;
+}
+
+.third-sec-content .green-p {
+  color: #30b868;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.dual-text h1 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: 700;
+}
+
+.dual-text p {
+  font-size: 16px;
+  color: #001931;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+} 
+
+.third-sec-content ul li {
+  list-style: none;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.third-sec-content ul li img{
+  margin-bottom: -5px;
 }
