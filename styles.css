@@ -269,7 +269,7 @@ nav button:hover,
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 40px;
-} 
+}
 
 .third-sec-content ul li {
   list-style: none;
@@ -278,45 +278,43 @@ nav button:hover,
   line-height: 20px;
   font-weight: 500;
 }
-.third-sec-content ul li img{
+.third-sec-content ul li img {
   margin-bottom: -5px;
 }
 
-
-.fourth-sec{
+.fourth-sec {
   max-width: 1600px;
   height: 507px;
   padding: 120px;
-  
 }
-.fourth-sec .early-access-sec{
+.fourth-sec .early-access-sec {
   padding: 80px 40px;
-  background-color: #F7F6F2;
+  background-color: #f7f6f2;
   text-align: center;
   max-width: 1360px;
   height: 385px;
 }
 
-.early-access-sec h1{
+.early-access-sec h1 {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 16px;
 }
-.early-access-sec p{
+.early-access-sec p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   margin-bottom: 24px;
 }
 
-.early-access-sec button{
+.early-access-sec button {
   background-color: #469165;
   color: white;
   border-radius: 4px;
   padding: 16px;
   gap: 10px;
   display: inline-flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   text-align: center;
   border: none;
@@ -325,14 +323,62 @@ nav button:hover,
   margin-bottom: 16px;
 }
 
-.early-access-sec button:hover{
+.early-access-sec button:hover {
   transition: 0.3s;
   background-color: #0078d4;
 }
 
-.fourth-sec .two-p{
+.fourth-sec .two-p {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   color: #627382;
+}
+
+footer {
+  background-color: #001931;
+  max-width: 1600px;
+  height: 348px;
+  margin-top: 120px;
+}
+
+footer .main {
+  padding: 120px 120px 164px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 139px;
+  height: 60px;
+}
+
+footer .main p {
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+footer .main div button {
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+}
+
+footer .main div button:hover {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+footer .small {
+  color: #fafafa;
+  padding: 30px 120px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #001931;
 }
